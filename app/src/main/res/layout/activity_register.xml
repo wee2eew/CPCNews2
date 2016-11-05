@@ -20,6 +20,11 @@
             android:gravity="center"
             android:textSize="30sp"/>
         <EditText
+            android:id="@+id/etDisplayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="display name"/>
+        <EditText
             android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,6 +43,7 @@
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"/>
+            android:text="Register"
+            />
     </LinearLayout>
 </RelativeLayout>

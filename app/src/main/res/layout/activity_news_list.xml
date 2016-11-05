@@ -9,4 +9,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.hp.cpcnews.NewsListActivity">
 
+    <ImageView
+        android:id="@+id/imgPic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/party"/>
+    <TextView
+        android:id="@+id/tvTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="topic"
+        android:layout_toRightOf="@+id/imgPic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:layout_toRightOf="@+id/imgPic"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
 </RelativeLayout>
